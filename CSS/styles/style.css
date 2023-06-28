@@ -1,0 +1,22 @@
+/*p {
+    color:brown;
+} */
+body {
+    font-size: 34px;
+}
+
+p {
+    color:blue
+}
+
+h1, h2, h3 {
+    color:darkgreen
+}
+
+h1{
+    front-style: italic;
+    front-size: 70px;
+}
+.movies {
+    color:aqua
+}
