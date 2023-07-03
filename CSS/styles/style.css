@@ -1,7 +1,7 @@
 /*p {
     color:brown;
 } */
-body {
+/* body {
     font-size: 34px;
 }
 
@@ -19,4 +19,10 @@ h1{
 }
 .movies {
     color:aqua
+} */
+
+/* pseudo classes */
+a:visited {
+    color:brown;
 }
+
