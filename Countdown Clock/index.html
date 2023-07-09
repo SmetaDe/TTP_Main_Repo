@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guessing Game</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+  <h1>Guessing Game</h1>
+  <a href="#"><img src="image/charade.png" width=200 height=200></a>
+  <h3><p>Guess a number between 1 and 100:</p></h3>
+  <input type="number" id="guessInput" min="1" max="100">
+  <button id="submitBtn">Submit</button>
+  <button id="playBtn">Play Again</button>
+  <p id="message"></p>
+  <p id="score">&#x1F449;Score: <span id="scoreValue">10</span></p>
+  <p id="highscore">&#x1F3C6;Highscore: <span id="highscoreValue">0</span></p>
+
+
+<!----------------To add rules------------->
+  <style>
+    .rule-box {
+        border: 2px solid #000000;
+        padding: 5px;
+        width: 200px;
+        background-color: #f0f0f0;
+    }
+</style>
+
+  <div class="rule-box">
+    <h2>Rules</h2>
+        <li>Choose a number between 1-100</li>
+        <li>Everytime you guess incorrectly, you lose a point</li>
+        <li>If your score reaches 0, you lose</li>
+        <li>Try to beat your highscore</li>
+        <h2>Good Luck!</h2>
+</div>
+
+<!-- Footer-->
+<div class="footer">
+  <p>&copy;TTP_Summer-2023</p>
+  <p>Smeta Deba</p>
+</div>
+
+
+  <script src="script/script.js"></script>
+</body>
+</html>
+

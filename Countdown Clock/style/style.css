@@ -1,0 +1,49 @@
+/* .timer {
+    font-size: 48px;
+    font-family: sans-serif;
+    text-align:center;
+    margin-top: 200px;
+    color:aquamarine;
+} */
+
+body {
+    background-color: #e8d2f2;
+    text-align: center;
+  }
+  
+  /* Rest of the CSS styles remain the same */
+  
+  
+  h1 {
+    color: #4c0682;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+    padding: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
+  #message {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  #scoreValue {
+    font-weight: bold;
+  }
+  
+  #highscoreValue {
+    font-weight: bold;
+    color: rgb(56, 6, 53);
+  }
+  
