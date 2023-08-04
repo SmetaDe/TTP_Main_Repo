@@ -1,0 +1,3 @@
+[submodule "project5"]
+	path = project5
+	url = https://github.com/SmetaDe/pokedex-boilerplate-v3.git
